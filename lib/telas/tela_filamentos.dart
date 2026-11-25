@@ -104,7 +104,7 @@ class _TelaFilamentosState extends State<TelaFilamentos> {
                 ),
                 const SizedBox(height: 10),
                 DropdownButtonFormField<String>(
-                  value: materialSelecionado,
+                  initialValue: materialSelecionado,
                   decoration: const InputDecoration(
                     labelText: 'Material',
                     border: OutlineInputBorder(),

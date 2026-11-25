@@ -250,7 +250,7 @@ class _TelaCalculadoraState extends State<TelaCalculadora> {
 
           // Seletor de Impressora Pré-definida
           DropdownButtonFormField<String>(
-            value: _impressoraSelecionada,
+            initialValue: _impressoraSelecionada,
             isExpanded: true,
             decoration: const InputDecoration(
               labelText: 'Impressora 3D',
@@ -306,7 +306,7 @@ class _TelaCalculadoraState extends State<TelaCalculadora> {
 
           // Seletor de Tarifa de Santa Catarina
           DropdownButtonFormField<String>(
-            value: _tarifaSelecionada,
+            initialValue: _tarifaSelecionada,
             isExpanded: true,
             decoration: const InputDecoration(
               labelText: 'Tarifa Energia - Santa Catarina (SC)',
@@ -336,7 +336,7 @@ class _TelaCalculadoraState extends State<TelaCalculadora> {
 
           // Seletor de Filamento do Estoque
           DropdownButtonFormField<Filamento>(
-            value: _filamentoSelecionado,
+            initialValue: _filamentoSelecionado,
             isExpanded: true,
             decoration: const InputDecoration(
               labelText: 'Filamento do Estoque',
